@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: rgb(101, 101, 198);
+    border: 10px solid navy;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: rgb(214, 108, 108);
+}
+
+.yellow-piece {
+    background-color: rgb(243, 243, 48);
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    
+}
